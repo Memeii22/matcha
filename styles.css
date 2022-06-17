@@ -14,6 +14,9 @@ p{
 button{
     color: #fff;
     background-color: #025157;
+    border: 0;
+    border-radius: 5px;
+    padding: 12px 14px;
 }
 .header{
     margin: 40px 20px 0;
@@ -21,11 +24,18 @@ button{
     margin-left: 20px;
     margin-right: 20px; */
     font-size: 0;
+    font-family: sans-serif;
     }
+.fixed-header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #fffbf7;
+}    
 li{
     display: inline;
-    margin-left: 25px;
-    margin-right: 25px;
+    margin: 0 25px 0;
 }
 .header > * {
     display: inline-block;
@@ -42,22 +52,19 @@ li{
     width: 15%;
 }
 .navbar{
-    width: 70%;
+    width: 60%;
     text-align: center;
     color: #025157;
-    font-weight: 500;
-    font-family: sans-serif;
-    height: 45px;    
+    font-weight: 500; 
 }
 .actions {
     width: 15%;
-    text-align: left;
+    text-align: right;
     font-size: 14px;
     font-weight: 600;
 }
 .actions > *{
-    margin-left: 10px;
-    margin-right: 10px;
+    margin: 0 10px;
 }
 .actions a {
     color: #67b54b ;
@@ -71,6 +78,47 @@ padding: 12px 14px;
 
 }
 .main{
-    margin-top: 140px;
+    margin-top: 285px;
     text-align: center;
 }
+.publish {
+    margin-left: 30px;
+  }
+  
+  .publish h3 { 
+    font-family: "Alegreya", serif;
+    font-size: 40px;
+    line-height: 48px;
+    color: #025157;
+  }
+  
+  .publish > p {
+    font-size: 16px;
+    color: #343434;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .publish > form {
+    display: flex;
+  }
+  
+  .publish > form p {
+    color: #025157;
+    margin-right: 18px;
+  }
+.promo{
+    display: flex;
+    width:70%;
+    margin: 100px auto;
+    align-items: center;
+}
+.explanatory-video{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.explanatory-video img {
+    width: 120px;
+    margin-top: 10px;
+  }
