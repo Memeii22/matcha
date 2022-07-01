@@ -1,0 +1,22 @@
+{
+  "name": "matcha",
+  "version": "1.0.0",
+  "description": "Repo para face 1\r ##README de prueba",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Memeii22/matcha.git"
+  },
+  "author": "Guillermo Cortes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Memeii22/matcha/issues"
+  },
+  "homepage": "https://github.com/Memeii22/matcha#readme",
+  "dependencies": {
+    "sass": "^1.53.0"
+  }
+}
